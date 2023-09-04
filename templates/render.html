@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .imagedisplay {
+            width: 700;
+            height:700;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+     
+        .imagedisplay img {
+            width: 100%;
+            transition: 0.5s all ease-in-out;
+        }
+     
+        .imagedisplay:hover img {
+            transform: scale(1.5);
+        }
+    </style>
+  </head>
+
+  <body>
+    <h3>Rendered Image Below</h3>
+    <p>Rendering the image uploaded by the flask app with zoom functionality.</p>
+    <div class="imagedisplay">
+        <img src="{{url_for('static', filename = user_image )}}" width="700" height="700" />
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+   <head>
+      <title>File Upload Successful</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <p>File uploaded successfully!</p>
+      <p>File Name: {{name}}</p>
+
+      <h3 style="text-align:center;">Render The Image</h3>
+        <form action="/render">
+         <div class="wrapper">
+            <button class="button">Render</button>
+         </div>
+            
+        </form>
+
+   </body>
+</html>
