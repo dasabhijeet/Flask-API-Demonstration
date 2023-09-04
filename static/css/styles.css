@@ -1,0 +1,14 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #d1d1ff;
+	color: #001f3f;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: top;
+    top: 50%;
+}
