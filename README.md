@@ -1,7 +1,9 @@
 # Flask-API-Demonstration
 A simple, functional flask API for demonstration purpose. It includes a flask API, rate limiter, JWT user authentication, session timeout, etc. This can be greatly improved with more updates in future.
 <h3>1. User Login:</h3>
-<p>This page asks for login credentials as set in app.py. If you want to change the login, set it manually there. Default login is: ```username: admin1``` and ```password: admin1```</p>
+<p>This page asks for login credentials as set in app.py. If you want to change the login, set it manually there. Default login is:</p>
+
+```username: admin1``` and ```password: admin1```
 
 ![Default Login-Upload Portal](https://github.com/dasabhijeet/Flask-API-Demonstration/assets/143497155/ef4280fa-834a-451d-b8dc-930f5ebe8336)
 
@@ -22,7 +24,7 @@ A simple, functional flask API for demonstration purpose. It includes a flask AP
 ![render-img](https://github.com/dasabhijeet/Flask-API-Demonstration/assets/143497155/4d8ee4c4-4b1f-42c4-a943-9a2653ee2732)
 
 <h2>How to run this app?</h2>
-<strong>Step 1:</strong><p>Install the python libraries as imported on the app.py file. Just be careful of JWT library imports because if JWT and PyJWT are both imported in the same environment, it raises an error that is hard to fix and identify. I have faced this error and wasted 3 hours, so you don't have to. :) </p>
+<strong>Step 1:</strong><p>Install the python libraries as imported on the app.py file. Just be careful with JWT library imports because if JWT and PyJWT are both imported in the same environment, it raises an error that is hard to fix and identify. I have faced this error and wasted 3 hours, so you don't have to. :) </p>
 
 <strong>Step 2:</strong><p>Change directory to app directory and open terminal, then type: ```python app.py```</p>
 
